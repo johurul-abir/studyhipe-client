@@ -9,7 +9,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      input: "clinent/src/main.jsx", // Specify the correct entry JavaScript file here
+      input: "client/src/main.jsx", // Ensure the path is correct here
     },
   },
 });
