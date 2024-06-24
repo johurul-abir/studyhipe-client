@@ -1,0 +1,44 @@
+.support{
+    padding: 100px 0px;
+    background-color: #f0f8ff;
+    h1{
+        font-weight: 600;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .support_item{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 25px;
+        row-gap: 25px;
+        margin-bottom: 28px;
+
+        .card{
+            border: 1px solid #09A3DF;
+            width: 200px;
+            background-color: #f0ffff;
+            .support_con{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s all ease-in-out;
+                &:hover{
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+
+                i{
+                    font-size: 70px;
+                    padding-right: 20px;
+                    color: #09A3DF;
+                }
+                h4{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+        }
+        
+    }
+}

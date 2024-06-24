@@ -1,0 +1,53 @@
+
+.modeltest{
+    padding: 100px 0px; 
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .divider{
+        width: 100px;
+        height: 4px;
+        background-color: #09A3DF;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .model_item{
+        text-align: center;
+        display: flex;
+        column-gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        .card{
+            border: 2px solid #09A3DF;
+            width: 300px;
+            background-color:#f0f8ff ;
+            &:hover{
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+            }
+
+            img{
+                width: 100px;
+                object-fit: cover;
+            }
+            h3{
+                font-weight: 600;
+            }
+            p{
+                font-weight: 500;
+            }
+            h5{
+                font-weight: 600;
+                color:green;
+            }
+
+        }
+        
+    }
+
+}

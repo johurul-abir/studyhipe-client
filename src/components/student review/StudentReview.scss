@@ -1,0 +1,59 @@
+.studentRview {
+  background-color: #09a3df;
+  padding: 100px 0px;
+
+  .student_review_header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    h2 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .divider {
+      width: 100px;
+      height: 2px;
+      background-color: white;
+      display: block;
+      margin: 0 auto;
+    }
+    p {
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+
+  .student_revies_item {
+    padding-top: 20px;
+
+    .card {
+      background-color: transparent;
+      border: 1px solid white;
+      .review_box {
+        display: flex;
+        padding: 30px;
+        gap: 20px;
+
+        img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        h3 {
+          font-size: 25px;
+          font-weight: 600;
+        }
+        h5 {
+          font-size: 18px;
+          font-weight: 400;
+          color: white;
+        }
+      }
+    }
+  }
+}

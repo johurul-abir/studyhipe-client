@@ -1,0 +1,87 @@
+.course {
+  padding-top: 50px;
+  background-color: #f0f8ff;
+  padding-bottom: 100px;
+
+  .divider {
+    width: 60px;
+    height: 4px;
+    background-color: #09a3df;
+    margin-bottom: 30px;
+  }
+
+  .batch {
+    display: flex;
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    .course_card {
+      width: 22%;
+      padding-bottom: 10px;
+      .coruse-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .cover-img {
+          position: relative;
+          img {
+            width: 100%;
+            border-radius: 5px 5px 0px 0px;
+            height: 175px;
+            object-fit: cover;
+          }
+
+          span {
+            background-color: yellow;
+            padding: 0px 10px;
+            border-radius: 5px;
+            color: rgb(1, 1, 37);
+            font-weight: 600;
+            position: absolute;
+          }
+        }
+
+        .batch_item {
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding-bottom: 20px;
+          }
+          h5 {
+            font-size: 15px;
+          }
+          .calss {
+            display: flex;
+            justify-content: space-between;
+            p {
+              font-size: 14px;
+            }
+          }
+          .price {
+            display: flex;
+            justify-content: space-between;
+            h4 {
+              color: green;
+              font-size: 18px;
+              del {
+                color: red;
+              }
+            }
+          }
+          .free {
+            h4 {
+              color: green;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

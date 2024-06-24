@@ -1,0 +1,73 @@
+.campus {
+  .bardcome {
+    background-color: var(--sky);
+    padding: 40px 0;
+    text-align: center;
+    h3 {
+      font-size: 40px;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+  .gallery {
+    padding: 100px 0;
+    width: 100%;
+    .gallery-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      .gallery-item {
+        position: relative;
+        width: 30%;
+        overflow: hidden;
+
+        .preview-icon {
+          color: var(--sky);
+          font-size: 40px;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &:hover .preview-icon {
+          opacity: 100;
+        }
+        &::before {
+          width: 100%;
+          height: 100%;
+          background-color: var(--navy);
+          opacity: 0.2;
+          padding: 20px;
+          cursor: pointer;
+          position: absolute;
+          content: "";
+          top: 100%;
+        }
+
+        &:hover::before {
+          top: 0;
+          transition: 0.3s all ease-in-out;
+        }
+
+        img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+          cursor: pointer;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.img-modal {
+  position: relative;
+  .c-button {
+    color: var(--sky) !important;
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+}

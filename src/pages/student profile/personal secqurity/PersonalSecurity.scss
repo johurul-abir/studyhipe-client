@@ -1,0 +1,49 @@
+.into-item {
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #f2f2f2;
+  }
+  .seepass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+.contact-box {
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f2f2f2;
+  }
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      padding: 0;
+      margin: 0;
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  padding: 10px;
+  border-radius: 0;
+  outline: none;
+  &:focus {
+    border-color: none;
+  }
+}

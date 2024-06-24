@@ -1,0 +1,57 @@
+.studentProfile {
+  padding: 20px 10px;
+  .left-sidebar {
+    h5 {
+      text-transform: capitalize;
+    }
+    .profile-info {
+      text-align: center;
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 3px solid #d1d5db;
+      }
+    }
+    .dashborad-menu {
+      text-transform: capitalize;
+      font-weight: 400;
+      ul {
+        padding: 0;
+        border: 1px solid gainsboro;
+        a {
+          text-decoration: none;
+          color: var(--navy);
+          li {
+            border-bottom: 1px solid rgb(223, 220, 220);
+            padding: 3px 5px;
+            transition: 0.3s all ease-in-out;
+            &:hover {
+              background-color: #d1d5db;
+            }
+            svg {
+              margin-right: 10px;
+            }
+          }
+          .active {
+            background-color: #d1d5db;
+          }
+        }
+      }
+    }
+  }
+}
+
+.input_group {
+  position: relative;
+  i {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,192 @@
+
+.hsc-science{
+    padding: 50px 0px;
+    .subject-wise-video{
+        padding: 50px 0px;
+        h2{
+            padding-bottom: 20px;
+
+        }
+        .video-link-area{
+            display: flex;
+            column-gap: 20px;
+            row-gap: 30px;
+            width: 100%;
+            flex-wrap: wrap;
+            .video-link-item{
+                width: 30% ;
+                .video-card{
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                        & a{
+                            color: #09A3DF;
+                        }
+                    }
+                  
+                }
+                .item-content{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 20px;
+                   
+                }
+                i{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #09A3DF;
+                    font-size: 40px;
+                    line-height: 45px;
+                    border-radius:10px;
+                    color: white;
+                    text-align: center;
+                    cursor: pointer;
+                    svg{
+                        padding-bottom: 3px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+
+
+    .online-batch{
+        padding: 50px 0px;
+
+        .online-all-batches{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            .batch-item{
+                padding-top: 20px;
+                width: 48%;
+        
+                .batch-content{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    
+                    .batch-left{
+                        width: 58%;
+                        
+                        .left-content{
+                            h3{
+                                font-size: 22px;
+                            }
+                            h6{
+                                padding-top: 20px;
+                            }
+                            p{
+                                display: block;
+                                text-align: left;
+                                padding-bottom: 40px;
+                            }
+        
+                            
+                        }
+                    }
+                    
+                    .batch-right{
+                        width: 40%;
+                        img{
+                            width:100%;
+                            height:250px;
+                            object-fit: cover;
+                            border-radius: 20px;
+                        }
+                    }
+                   }
+               }
+        
+        }
+
+       .batch-item{
+        padding-top: 20px;
+        width: 48%;
+
+        .batch-content{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+            .batch-left{
+                width: 58%;
+                
+                .left-content{
+                    h3{
+                        font-size: 22px;
+                    }
+                    h6{
+                        padding-top: 20px;
+                    }
+                    p{
+                        display: block;
+                        text-align: left;
+                        padding-bottom: 40px;
+                    }
+
+                    
+                }
+            }
+            
+            .batch-right{
+                width: 40%;
+                img{
+                    width:100%;
+                    height:250px;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+            }
+           }
+       }
+
+       
+    }
+
+    .live-courses{
+        padding: 50px 0px;
+        
+        h2{
+            padding-bottom: 30px;
+        }
+        .all-courses{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            .course-item{
+                width: 23%;
+                a{
+                    text-decoration: none;
+                }
+                .live-course-card {
+                    &:hover{
+                        border: 1px solid #09A3DF;
+                    }
+        
+                    .live-course-card-body{
+                        padding: 0;
+                        
+                        img{
+                            width: 100%;
+                            height: 220px;
+                        }
+                        h4{
+                            padding: 15px;
+                        }
+                        h5{
+                            padding: 0px 0px 20px 20px;
+                            color: green;
+                        }
+                    }
+                }
+               
+            }
+        }
+        
+    }
+}
